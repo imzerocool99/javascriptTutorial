@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Tutorial</title>
+<script type="text/javascript">
+	function changeText(param) {
+		document.getElementById('sampleParagraph').innerHTML = "Welcome to Subaru " + param;
+		alert("Alert: Text will be changed now!")
+	}
+</script>
+</head>
+<body>
+<div>
+	<p id="sampleParagraph">
+		Introduction to JavaScript
+	</p>
+	<input type="button" value="Change Text" onclick="changeText('EBS Team');">
+</div>
+</body>
+</html>
